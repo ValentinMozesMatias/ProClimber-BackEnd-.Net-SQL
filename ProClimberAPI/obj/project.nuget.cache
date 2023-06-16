@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TU76qHP1A2QMp36ZBbHaxteTNAPsvxNRF40M5uXbdvzVyIl02/K9DHKvos2nakIe5hA725Kk0bLnkRs6BjYJgQ==",
+  "dgSpecHash": "uaUQ2202JYeIea+TLLwl5KffL43P/raQQGcmiif/Q3DwfoC9BiDC4mw6K6p23d3Td4EXD1WngnE30DxThoI1Hw==",
   "success": true,
   "projectFilePath": "C:\\Users\\e664\\source\\repos\\ProClimberAPI\\ProClimberAPI\\ProClimberAPI\\ProClimberAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\e664\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\e664\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\e664\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\e664\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\e664\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\e664\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\e664\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using ProClimberAPI.Data;
 
 namespace ProClimberAPI.Controllers
 {
@@ -6,19 +8,17 @@ namespace ProClimberAPI.Controllers
     [Controller]
     public class ProClimberController : Controller
     {
-        [HttpGet]
-        public async Task<List<ProClimber>> GetProClimber() 
+        private readonly DataContext _context;
+
+        public ProClimberController(DataContext dataContext)
         {
-            return new List<ProClimber>
-            {
-                new ProClimber
-                {
-                    Name = "Magnus Mitbo",
-                    FirstName = "Magnus",
-                    LastName = "Mitbo",
-                    Place = "Norway"
-                }
-            };
+            _context = dataContext;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<ProClimber>>> GetProClimber() 
+        {
+            return Ok(await _context.ProClimbers.ToListAsync());
         }
     }
 }
