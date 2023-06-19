@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -66,6 +70,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.7, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.20.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
