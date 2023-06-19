@@ -13,7 +13,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("ProClimberAPI"));
 });
-builder.Services.AddCors(options => options.AddPolicy(name: "ProClimberOrigins",policy =>
+builder.Services.AddCors(options => options.AddPolicy(name: "ProClimberOrigins", policy =>
 {
     policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
 }));

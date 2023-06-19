@@ -6,6 +6,11 @@ namespace ProClimberAPI.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
-        public DbSet<ProClimber> ProClimbers => Set<ProClimber>();
+        public DbSet<ProClimber> ProClimbers { get; set; }
+
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<ProClimber>().ToTable("proclimberdb");
+        //}
     }
 }
